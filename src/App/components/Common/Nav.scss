@@ -1,0 +1,42 @@
+.active {
+  background: #61DAFB;
+  color: #000 !important;
+  border-radius: 4px;
+}
+
+.active .nav-side {
+  border-left: 1px solid #000;
+}
+
+.nav-container {
+  position: relative;
+  height: 50px;
+}
+.nav-right {
+  text-align: right;
+  height: 50px;
+  line-height: 50px;
+}
+
+.nav-side {
+  margin-left: 5px;
+  padding-left: 5px;
+  border-left: 1px solid #fff;
+}
+
+.nav-left {
+  text-align: left;
+  height: 50px;
+  line-height: 50px;
+}
+
+.nav-item {
+  margin: 5px;
+  padding: 2px 8px;
+}
+
+.nav-home {
+  font-size: 16px;
+  font-weight: bold;
+}
+

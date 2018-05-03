@@ -1,3 +1,9 @@
+/**
+ * @see {IMPORTANT}
+ * @deprecated
+ * @see {NOT-IN-USE-ANYMORE}
+ */
+
 const initial = () => {
   let data;
   if (window.localStorage) {

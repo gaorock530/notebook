@@ -1,11 +1,19 @@
-import initialState from './initialState';
-
-export default function (state = initialState.isLogin || false, action) {
+export default function (state = {
+  isLogin: false,
+  username: ''
+}, action) {
   switch (action.type){
     case 'LOGIN':
-      return state = true;
+      return {
+        username: action.username,
+        isLogin: true
+      };
     case 'LOGOUT':
-      return state = false;
+      return {
+        username: '',
+        isLogin: false
+      };
+
     default:
       return state;
   }

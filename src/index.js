@@ -16,12 +16,11 @@ import App from './App/App';
 import registerServiceWorker from './registerServiceWorker';
 import style from './consoleStyle';
 
+// Fires every time react STATE changes
 store.subscribe(() => {
-  if (window.localStorage) {
-    if (localStorage.getItem('token')) {
-      localStorage.setItem('data', JSON.stringify(store.getState()));
-    }
-  }
+  // if (window.localStorage) { 
+  //   localStorage.setItem('data', JSON.stringify(store.getState()));
+  // }
 })
 
 

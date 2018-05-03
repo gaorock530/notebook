@@ -1,1 +1,3 @@
-export const ADDR = "https://magic-userapi-reefapp.herokuapp.com" || "http://localhost:5000";
+export const ADDR = "http://localhost:5000";
+
+// "https://magic-userapi-reefapp.herokuapp.com" || 

@@ -10,7 +10,7 @@ class PrivateRoute extends React.Component {
       <Route
         {...rest}
         render={props =>
-          this.props.isLogin ? (
+          this.props.user.isLogin ? (
             <Component {...props} />
           ) : (
             <Redirect
@@ -26,5 +26,8 @@ class PrivateRoute extends React.Component {
   }
 } 
 
+const mapStateToProps = (state) => {
+  return { user: state.user};
+}
 
-export default connect(state => state)(PrivateRoute);
+export default connect(mapStateToProps)(PrivateRoute);

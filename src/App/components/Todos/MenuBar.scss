@@ -5,7 +5,8 @@
 }
 
 .menu-message {
-  align-self: center;
+  height: 32px;
+  line-height: 32px;
 }
 
 .menu-button{
@@ -14,18 +15,17 @@
   color: #000;
   outline: 0;
   border: none;
-  padding: 3px 15px;
+  padding: 3px 10px;
   border-radius: 2px;
-  background-color: #ff1133;
+  background-color: #FF2645;
 
   &:hover {
     color: #eee;
-    cursor: pointer;
   }
 }
 
 .button-on-edit {
-  background: green;
+  background: #61DAFB;
 }
 
 .button-disable {
@@ -41,6 +41,9 @@
 
 .input-add {
   display: block;
+  position: absolute;
+  top: -32px;
+  right: 0;
   width: 100%;
   font-size: 14px;
   line-height: 1.42857143;
@@ -51,7 +54,26 @@
   border-radius: 4px;
 }
 
+.input-title-edit {
+  height: 80%;
+  outline: 0;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #61DAFB;
+}
+
 .v-space {
   margin-top: 3px;
   margin-bottom: 3px;
+}
+
+.options {
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #000;
+  outline: 0;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 2px;
 }

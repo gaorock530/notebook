@@ -8,10 +8,15 @@
   button {
     background: #624270;
     color: #eee;
+    min-width: 100px;
   }
 }
 
 .input-label {
   display: inline-block;
   width: 20px;
+}
+
+.form-center {
+  text-align: center;
 }

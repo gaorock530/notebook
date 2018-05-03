@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import {Redirect} from 'react-router-dom';
 import {connect} from 'react-redux';
-import * as actions from '../actions';
+import * as actions from '../../actions';
 import './Login.scss';
 
 class Register extends Component {
+  componentDidMount () {
+    document.title = 'Register';
+  }
   
 
   render () {
